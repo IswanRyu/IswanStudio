@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.satu {
+    background-color: lightgreen;
+    position: static; /* posisi default */
+}
+
+.dua {
+    background-color: violet;
+    position: relative; /* posisi relative */
+    top: 30px; /* menggeser posisi 30px dari atas */
+    left: 50px; /* menggeser posisi 50px dari kiri */
+}
+
+.tiga {
+    background-color: gold;
+}

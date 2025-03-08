@@ -1,0 +1,7 @@
+body {
+    background-color: lightblue;
+    background-image: url(../love1.1.jpg);
+    background-repeat: no-repeat; /*  jika background image menjadi no repeat maka image 
+    mempunyai akses untuk background position */
+    background-position: top center; /*  background position digunakan untuk mengatur posisi background image */;
+}

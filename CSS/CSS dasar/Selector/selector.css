@@ -1,0 +1,31 @@
+body {
+    font-family: arial;
+}
+
+h1, h2 {/* tanda koma adalah "dan" */
+    color: green; 
+}
+
+ul li a {/*space seperti penyambung antara parent dan child*/
+    color: orange;
+}
+
+ol li a {/*space seperti penyambung antara parent dan child*/
+    color: red;
+}
+
+#p1 {/*"#" adalah id*/
+    color: orange;
+}
+
+.p2 {/*"." adalah class*/
+    color: red;
+}
+
+.cetak-tebal {/* space seteleh class adalah child*/
+    font-weight: bold;
+}
+
+p.cetak-tebal {/* mencari tag yang memiliki class cetak-tebal dengan tanda "."*/
+    font-size: 30px;
+}

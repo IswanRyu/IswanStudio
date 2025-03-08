@@ -1,0 +1,7 @@
+ul#sarapan li {/* spesifik */
+    color: green;
+}
+
+ul#sarapan li.favorit {/* lebih spesifik */
+    color: red;
+}

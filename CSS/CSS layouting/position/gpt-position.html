@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .container {
+            width: 400px;
+            height: 300px;
+            border: 2px solid black;
+            position: relative; /* Parent untuk absolute */
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .static {
+            background: gray;
+            position: static; /* Ikut aturan biasa */
+        }
+
+        .relative {
+            background: blue;
+            position: relative;
+            top: 20px; /* Turun 20px */
+            left: 20px; /* Ke kanan 20px */
+        }
+
+        .absolute {
+            background: red;
+            position: absolute;
+            top: 50px; /* Dari parent (container) */
+            left: 50px;
+        }
+
+        .fixed {
+            background: green;
+            position: fixed;
+            bottom: 10px; /* Sentiasa di bawah */
+            right: 10px;
+        }
+
+        .sticky {
+            background: orange;
+            position: sticky;
+            top: 0px; /* Melekat di atas bila discroll */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box static">Static</div>
+    <div class="box relative">Relative</div>
+
+    <div class="container">
+        <div class="box absolute">Absolute</div>
+    </div>
+
+    <div class="box sticky">Sticky</div>
+
+    <div class="box fixed">Fixed</div>
+
+    <p style="margin-top: 200px;">Scroll ke bawah untuk lihat efek `sticky`.</p>
+
+</body>
+</html>

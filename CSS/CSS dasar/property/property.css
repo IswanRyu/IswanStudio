@@ -1,0 +1,9 @@
+body {
+    font-family: arial;
+    color: darkgrey;
+}
+
+a {/* property inherit digunakan untuk mewariskan nilai dari parent element kerana warna 
+    pada link adalah default dalam sistem*/
+    color: inherit;
+}

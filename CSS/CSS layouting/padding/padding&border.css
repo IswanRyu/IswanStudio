@@ -1,0 +1,8 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    margin: 20px auto; /* margin adalah jarak antara border dengan elemen lain */
+    padding: 50px; /* padding berada di dalam border */
+    border: 5px solid black; /*border adalah batas diantara padding dan margin */
+}

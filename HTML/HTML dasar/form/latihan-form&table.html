@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>latihan-table</title>
+    </head>
+    <body>
+        <form>
+            <table border="1" cellspacing="0" cellpadding="5" style="text-align: center;">
+                <tr>
+                    <td style="text-align: end;"><label for="name">Name :</label></td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><label for="password">Password :</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="lelaki">lelaki</label>
+                        <input type="radio" id="lelaki" name="gender">
+                        <label for="perempuan">perempuan</label>
+                        <input type="radio" id="perempuan" name="gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="bekerja">Berkerja</label>
+                        <input type="checkbox" id="bekerja">
+                        <label for="pelajar">Pelajar</label>
+                        <input type="checkbox" id="pelajar">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: end;"><label for="negara">Negari :</label></td>
+                    <td style="text-align: start;"><select>
+                        <option>sabah</option>
+                        <option>kuala lumpur</option>
+                        <option>selangor</option>
+                        <option>serawak</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td style="text-align: end;"><label for="komen">Comment :</label></td>
+                    <td><textarea id="komen"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Selesai</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

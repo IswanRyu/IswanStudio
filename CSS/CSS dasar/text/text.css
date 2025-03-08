@@ -1,0 +1,20 @@
+/* belajar mengenai text styling */
+
+h1 {
+    font-size: 50px; /* ukuran font */
+    color: coral; /* color */
+    text-align: center; /* text align */
+    text-decoration: underline; /* underline */
+    text-transform: uppercase;
+}
+
+p {
+    text-indent: 30px; /* indentasi */
+    text-transform: capitalize; /* capitalize */
+    letter-spacing: 1px; /* jarak antar huruf */
+    word-spacing: 1px; /* jarak antar kata */
+}
+
+a {
+    text-decoration: none; /* menghilangkan underline */
+}

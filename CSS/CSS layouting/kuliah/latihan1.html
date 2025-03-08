@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1</title>
+    <style>
+        body {
+            height: 1000px;
+        }
+
+        .kotak1, .kotak2, .kotak3 {
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            position: absolute;
+        }
+
+        .kotak1 {
+            background-color: salmon;
+            z-index: 1;
+        }
+
+        .kotak2 {
+            background-color: lightblue;
+            top: 75px;
+            left: 75px;
+            z-index: 2;
+        }
+
+        .kotak3 {
+            background-color: lightgreen;
+            top: 150px;
+            left: 150px;
+            z-index: 3;
+        }
+
+        .container {
+            width: 450px;
+            height: 450px;
+            border: 8px solid black;
+            margin: 30px auto;
+            position: relative;
+        }
+
+        .top-bar {
+            width: 100%;
+            height: 50px;
+            background-color: blue;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 4;
+        }
+
+        .iklan {
+            background-color: rgb(0, 0, 0, 0.5);
+            position: fixed;
+            top: 100px;
+            bottom: 100px;
+            right: 100px;
+            left: 100px;
+            z-index: 5;
+        }
+
+        .close {
+            font-family: arial;
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border: 3px solid black;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            position: absolute;
+            right: -15px;
+            top: -15px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>    
+    <div class="top-bar"></div>
+    <div class="container">
+        <div class="kotak1"></div>
+        <div class="kotak2"></div>
+        <div class="kotak3"></div>
+    </div>
+    <div class="iklan">
+        <div class="close">X</div>
+    </div>
+</body>
+</html>
