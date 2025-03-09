@@ -5,58 +5,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: arial, sans-serif;
+    background-color: rgb(34, 34, 34);
     color: white;
-    overflow-x: hidden;
-    height: 150vh;
-    background-color: rgb(41, 41, 41);
 }
 
-.menu-bar {
-    background-color: darkorange;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-}
-
-h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.menu-bar nav ul {
-    display: inline-block;
-    margin: 0.6rem;
-}
-
-.menu-bar nav ul a {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-}
-
-.menu-bar nav ul a:hover {
-    color: lightblue;
-}
-
-section .gallery {
-    background-color: darkorange;
-    margin: 0.8rem;
-    border-radius: 2rem;
-    height: 50rem;
-    padding-left: 1.5rem;
-    padding-top: 1.2rem;
-}
-
-section .gallery div {
-    float: left;
-}
-
-section .gallery img {
-    width: 20%;
-    height: auto;
-    border-radius: 0.5rem;
-    margin: 1.2rem;
-}
