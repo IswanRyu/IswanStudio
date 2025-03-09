@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: rgb(41, 41, 41);
+}
+
+.menu-bar {
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-bar nav ul {
+    display: inline;
+    margin: 0.6rem;
+}
+
+.menu-bar nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.menu-bar nav ul a:hover {
+    color: lightblue;
+}
+
+section {
+
+}
+
+section .gallery {
+    background-color: darkorange;
+    margin: 3rem;
+    border-radius: 2rem;
+    height: 50rem;
+    padding-left: 1.9rem;
+    padding-top: 1.2rem;
+}
+
+section .gallery div {
+    float: left;
+}
+
+section .gallery img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin: 1.2rem;
+}
