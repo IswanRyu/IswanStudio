@@ -10,3 +10,9 @@ body {
     color: white;
 }
 
+section {
+    display: flex;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
