@@ -59,8 +59,8 @@ section .gallery div {
 }
 
 section .gallery img {
-    width: 15rem;
-    height: 15rem;
+    width: 240px;
+    height: 240px;
     border-radius: 2rem;
     margin: 1.2rem;
 }
