@@ -17,6 +17,7 @@
 .menu-bar h1{
     font-size: 25px;
     font-weight: bold;
+    margin-left: 1rem;
 }
 
 .menu-bar ol {
