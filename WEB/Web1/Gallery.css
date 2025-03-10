@@ -2,6 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font: inherit;
+}
+
+.menu-bar {
+    min-height: 4rem;
+    display: flex;
+    background: linear-gradient(darkorange, rgb(182, 100, 0));
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu-bar h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu-bar ol {
+    display: flex;
+}
+
+.menu-bar ol ul {
+    margin: 0 10px;
+}
+
+.menu-bar ol ul a {
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
 }
 
 body {
@@ -11,8 +40,20 @@ body {
 }
 
 section {
+    padding-top: 40px;
+}
+
+section .container {
     display: flex;
-    overflow-x: hidden;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
+section .container img {
+    border-radius: 1rem;
+}
+
+section .container .info {
+    text-align: center;
+    padding: 0 0 3rem 0;
+}
