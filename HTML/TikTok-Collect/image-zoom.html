@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div class="kodfun-galeri">
+            <div style="background-image: url(https://github.com/IswanRyu/IswanStudio/blob/main/CSS/CSS%20dasar/love2.jpg?raw=true);"></div>
+            <div style="background-image: url(https://github.com/IswanRyu/IswanStudio/blob/main/CSS/CSS%20dasar/love1.jpg?raw=true);"></div>
+            <div style="background-image: url(https://github.com/IswanRyu/IswanStudio/blob/main/CSS/CSS%20dasar/pengawas.jpg?raw=true);"></div>
+            <div style="background-image: url(https://github.com/IswanRyu/IswanStudio/blob/main/CSS/CSS%20dasar/pengawas2.jpg?raw=true);"></div>
+            <div style="background-image: url(https://github.com/IswanRyu/IswanStudio/blob/main/CSS/CSS%20dasar/dataran.jpg?raw=true);"></div>
+        </div>
+        <style>
+            .kodfun-galeri {
+                display: flex;
+                height: 20rem;
+                gap: 1rem;
+            }
+            .kodfun-galeri > div {
+                flex: 1;
+                border-radius: 1rem;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+            }
+            .kodfun-galeri > div:hover {
+                flex: 5;
+            }
+        </style>
+    </body>
+</html>

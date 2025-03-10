@@ -44,17 +44,31 @@ section {
     padding-top: 40px;
 }
 
-section .container {
+section .pic {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-section .container img {
+section .pic img {
     border-radius: 1rem;
 }
 
-section .container .info {
+section .pic .info {
     text-align: center;
     padding: 0 0 3rem 0;
+    font-size: 10px;
+}
+
+.moment {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.moment video {
+    width: 75%;
+    height: auto;
+    border-radius: 1rem;
+    border: 3px solid white;
 }

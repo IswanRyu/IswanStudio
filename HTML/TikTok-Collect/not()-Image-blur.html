@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div class="container">
+            <img src="https://github.com/IswanRyu/IswanStudio/blob/main/CSS/CSS%20dasar/love2.jpg?raw=true" alt="">
+            <img src="https://github.com/IswanRyu/IswanStudio/blob/main/CSS/CSS%20dasar/love1.jpg?raw=true" alt="">
+            <img src="https://github.com/IswanRyu/IswanStudio/blob/main/CSS/CSS%20dasar/pengawas.jpg?raw=true" alt="">
+            <img src="https://github.com/IswanRyu/IswanStudio/blob/main/CSS/CSS%20dasar/pengawas.jpg?raw=true" alt="">
+            <img src="https://github.com/IswanRyu/IswanStudio/blob/main/CSS/CSS%20dasar/dataran.jpg?raw=true" alt="">
+        </div>
+        <style>
+            .container:hover > :not(:hover) {
+                filter: grayscale(1) blur(5px);
+            }
+            img{
+                width: 100px;
+                height: 100px;
+                transition: .8s;
+            }
+            img:hover{
+                scale: 1.2;
+                margin: 10px;
+            }
+        </style>
+    </body>
+</html>
