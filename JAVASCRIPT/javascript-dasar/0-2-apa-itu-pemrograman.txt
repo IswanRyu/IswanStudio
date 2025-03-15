@@ -1,0 +1,37 @@
+"program adalah kumpulan / serangkaian intruksi,,"
+"program adalah urutan intruksi terstruktur, yang dirancang agar komputer dapat berperilaku sesuai dengan ketentuan, dengan tujuan
+untuk menyelesaikan sebuah pekerjaan."
+
+intruksi untuk komputer
+- Memberi perintah pada komputer
+- Melalui bahasa pemmprograman
+- Memecah tugas jadi intruksi sederhana
+
+intruksi sederhana
+- Melakukan operasi matematik
+- Menampilkan tulisan ke layar
+- Mengubah ukuran, posisi atau warna dari sebuah pixel
+-,,,
+
+perintah komputer
+- komputer tidak begitu pintar
+- tapi,
+- Penurut
+- tidak kenal lelah
+"berikanlah intruksi yang betul"
+
+Statement
+, Perintah untuk komputerdalam dalam bahasa pemprograman
+
+pascal umur := 30
+javascript var umur = 30
+php $umur = 30;
+COBOL MOVE 30 TO umur
+
+Kesimpulan
+- Pemprogramanadalah cara kita untuk memberikan instruksi yang simpel dan terstruktur pada komputer
+- intruksi yang kita berikan harus betul dan masuk akal
+- intruksi yang kita berikan harus sesuai dengan aturan pada bahasa pemprograman
+
+
+apa itu bahasa pemprograman

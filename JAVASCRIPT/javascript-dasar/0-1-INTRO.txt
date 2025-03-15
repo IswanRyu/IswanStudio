@@ -1,0 +1,24 @@
+0.1 intro
+
+- Program
+- Pemprograman
+- Bahasa pemprograman
+
+why javascript?
+
+- skill?
+- Sistem operasi?
+- Latar belakang?
+semua orang sebaiknya belajar pemprograman
+
+"I think everybody in this country should learn how to program a computer because it teaches you how to think."
+- Steve Jobs, Apple`s Co-Founder
+
+"In fifteen years we`ll be teaching programming just like reading and writing, and wondering why we didn`t do it sooner."
+- Mark Zuckerberg, Facebook Founder
+
+"Keitka kita memiliki skill coiding, kita akan leluasa untuk berkarya membuat sebuah aplikasi ynag akan menyeselesaikan banyak masalah."
+- Kresna Galuh, CEO CodePolitan
+- belajar teliti, disiplin dan berfikir abstrak
+- mengubah komputer menjadi alat yang powerfull
+- membentuk pola pikir komputasional
