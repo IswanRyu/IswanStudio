@@ -7,6 +7,7 @@
 body {
     font-family: arial, sans-serif;
     background: linear-gradient( 140deg, white, skyblue 99%);
+    width: 100%;
     height: 100vh;
     color: white;
     overflow-x: hidden;
@@ -43,21 +44,21 @@ body {
 section {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     height: 100%;
 }
 
 section .explore a{
-    margin-left: 15rem;
     text-decoration: none;
     color: black;
     font-size: 20px;
-}
-
-section .pic {
+    margin-left:7rem;
 }
 
 section .pic img {
     border-radius: 100%;
-    margin-right: 5rem;
+    justify-content: center;
+    width: 80%;
+    height: auto;
 }
