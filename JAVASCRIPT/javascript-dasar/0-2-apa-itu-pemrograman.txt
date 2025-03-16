@@ -21,7 +21,7 @@ perintah komputer
 "berikanlah intruksi yang betul"
 
 Statement
-, Perintah untuk komputerdalam dalam bahasa pemprograman
+, Perintah untuk komputer dalam bahasa pemprograman
 
 pascal umur := 30
 javascript var umur = 30
