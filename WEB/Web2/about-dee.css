@@ -8,7 +8,7 @@ body {
     font-family: arial, sans-serif;
     background: linear-gradient( 140deg, white, skyblue 99%);
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     color: white;
     overflow-x: hidden;
 }
@@ -45,6 +45,7 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
     align-items: center;
     height: 100%;
 }
