@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical-Navbar</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: arial, sans-serif;
+    }
+
+    .container {
+        height: 100vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        list-style-type: none;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .4);
+    }
+
+    ul li {
+        display: block;
+        text-align: center;
+        line-height: 8vmin;
+        border: 1.5px solid black;
+    }
+
+    ul li .active {
+    background-color: #04AA6D;
+    color: white;
+    }
+
+    ul li a {
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: #e0e0e0;
+        color: black;
+        display: inline-block;
+        width: 20vmin;
+        height: 8vmin;
+        transition: .5s ease;
+    }
+
+    
+    ul li a:hover:not(.active) {
+        background-color: #808080;
+        color: #ffffff;
+        width: 19.9vmin;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <ul>
+            <li>
+                <a class="active" href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">News</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

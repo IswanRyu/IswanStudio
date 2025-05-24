@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>training 3</title>
+    <style>
+        * {
+            font-family: arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #38444d;
+            overflow: hidden;
+        }
+
+        ul li {
+            float: left;
+        }
+
+        ul li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 2vmin 3vmin;
+            text-align: center;
+        }
+
+        ul li a:hover, .dropbtn:hover {
+            background-color: red;
+        }
+
+        ul li .dropdwon {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            min-width: 140px;
+            background-color: #f9f9f9;
+            position: absolute;
+            box-shadow: 0 6px 12px 2px rgba(0, 0, 0, .2);
+            z-index: 1;
+            display: none;
+        }
+
+        .dropdown-content a {
+            color: black;
+            display: block;
+            text-align: left;
+            padding: 2vmin 2vmin;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+    <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+    </li>
+</ul>
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+</body>
+</html>

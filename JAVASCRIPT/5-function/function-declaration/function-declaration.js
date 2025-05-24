@@ -4,3 +4,4 @@ function JumlahDuaAngka(a, b) {
 
     return total;
 }
+alert(JumlahDuaAngka(5, 10));

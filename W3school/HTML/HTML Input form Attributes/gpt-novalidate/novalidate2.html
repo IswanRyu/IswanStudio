@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>novalidate html + javascript</title>
+</head>
+<body>
+    <h2>Custom Validation JavaScript</h2>
+<form id="borangJS" action="submit.php" method="post" novalidate>
+  <label>Nama:</label>
+  <input type="text" id="nama"><br>
+
+  <label>Email:</label>
+  <input type="text" id="emel"><br>
+
+  <label>Katalaluan (min 6 huruf):</label>
+  <input type="password" id="password"><br>
+
+  <button type="submit">Hantar</button>
+  <p id="error" style="color:red;"></p>
+</form>
+
+<script>
+  document.getElementById("borangJS").addEventListener("submit", function(e) {
+    e.preventDefault(); // Halang hantar automatik
+    let nama = document.getElementById("nama").value.trim();
+    let emel = document.getElementById("emel").value.trim();
+    let password = document.getElementById("password").value;
+
+    let ralat = "";
+
+    if (nama === "") {
+      ralat += "Nama wajib diisi.<br>";
+    }
+
+    // Semak email dengan regex
+    let regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!regexEmail.test(emel)) {
+      ralat += "Email tidak sah.<br>";
+    }
+
+    if (password.length < 6) {
+      ralat += "Katalaluan mesti sekurang-kurangnya 6 huruf.<br>";
+    }
+
+    if (ralat !== "") {
+      document.getElementById("error").innerHTML = ralat;
+    } else {
+      document.getElementById("error").innerHTML = "";
+      alert("Borang berjaya dihantar (dengan semakan custom!)");
+      // e.target.submit(); ← Abang boleh aktifkan semula ni kalau mahu hantar betul
+    }
+  });
+</script>
+
+</body>
+</html>

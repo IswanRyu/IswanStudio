@@ -4,7 +4,7 @@
         <title>CSS Display</title>
     </head>
     <style>
-        a   {
+        .none li {
             background-color: pink;
             width: 50px;
             height: 50px;
@@ -15,6 +15,18 @@
             width: 250px;
             height: 250px;
         }
+
+        .main  {
+            background-color: lightgreen;
+        }
+
+        .main h2 {
+            background-color: pink;
+        }
+
+        .main span {
+            background-color: lightblue;
+        }
     </style>
     <body>
         <div class="header">
@@ -22,16 +34,18 @@
         </div>
         <div class="none">
             <h2>Daftar Link</h2>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
-            <a href="#">Link 5</a>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
         </div>
         
         <div class="main">
             <h2>Tajuk Artikel</h2>
-            <img src="../../CSS dasar/love1.1.jpg">
+            <img src="../CSS dasar/love1.1.jpg">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus minus aliquam sequi dolores consectetur, laboriosam <span>excepturi quos doloribus necessitatibus ipsa</span> cupiditate suscipit hic corrupti nostrum voluptatibus. Similique quam commodi porro!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus libero dolor reiciendis nostrum maxime iste accusamus, dolorum odit voluptatibus blanditiis voluptate soluta ratione accusantium non fugiat nam. Veritatis, dolor.</p>
         </div>

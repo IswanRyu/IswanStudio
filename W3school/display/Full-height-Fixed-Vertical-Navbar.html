@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-height Fixed Vertical Navbar</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: arial, sans-serif;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        height: 100%;
+        overflow: auto;
+        position: fixed;
+        width: 25%;
+        background-color: #f1f1f1;
+    }
+
+    li a {
+        display: block;
+        padding: 2vmin 3vmin;
+        text-decoration: none;
+        color: #000;
+        transition: .5s;
+    }
+
+    ul li .active {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    ul li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
+
+    div {
+        margin-left: 25%;
+        padding: 2vmin;
+        height: 1000px;
+    }
+
+</style>
+<body>
+    <ul>
+        <li>
+            <a class="active" href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">News</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+    </ul>
+    <div>
+        <h2>Fixed Full-height Side Nav</h2>
+        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+    </div>
+</body>
+</html>

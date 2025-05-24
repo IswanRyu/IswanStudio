@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Image</title>
+    <style>
+        * {
+            font-family: arial, sans-serif;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            background-color: #f9f9f9;
+            z-index: 1;
+            min-width: 10rem;
+            box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);
+            position: absolute;
+            display: none;
+            border-radius: 25px;
+            overflow: hidden;
+        }
+
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+
+        .desc {
+            text-align: center;
+            padding: 2vmin 3vmin;
+        }
+    </style>
+</head>
+<body>
+    <h2>Dropdown Image</h2>
+    <p>Move the mouse over the image below to open the dropdown content.</p>
+
+    <div class="dropdown">
+        <img src="../../../CSS/Asas-CSS/love1.1.jpg" alt="love" width="150vmin" height="80vmin">
+        <div class="dropdown-content">
+            <img src="../../../CSS/Asas-CSS/love1.jpg" alt="love" width="500vmin" height="330vmin">
+            <div class="desc">Hari yang banyak kenangan bersama Halwa</div>
+        </div>
+    </div>
+</body>
+</html>

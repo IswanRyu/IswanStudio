@@ -1,0 +1,10 @@
+div {
+    width: 300px;
+    height: 300px;
+    background-color: salmon;
+    border-radius: 0 50% 50% 50%;
+    background-image: url(Hannah.png);
+    background-size: cover;
+    text-align: center;
+    line-height: 300px;
+}

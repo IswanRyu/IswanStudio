@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical-Navbar 2</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: arial, sans-serif;
+    }
+
+    .container {
+        height: 100vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    p {
+        display: block;
+        position: absolute;
+        top: 20vmin;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    ul {
+        margin-top: 20vmin;
+        background-color: #f1f1f1;
+        width: 30vmin;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    ul li {
+        list-style-type: none;
+        height: 10vmin;
+        line-height: 10vmin;
+        border-bottom: 2px solid black;
+    }
+
+    ul li:last-child {
+        border-bottom: none;
+    }
+    
+    ul li:first-child a {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    ul li a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        transition: .5s;
+    }
+
+    ul li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
+</style>
+<body>
+    <div class="container">
+        <p>Vertical-Navbar</p>
+        <ul>
+            <li>
+                <a class="active" href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">News</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

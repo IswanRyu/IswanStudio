@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GPT COMBINE</title>
+</head>
+<body>
+<form action="default.php" method="post" enctype="application/x-www-form-urlencoded">
+  <h3>Contoh Form Serbaguna 😎</h3>
+
+  <label>Nama:</label>
+  <input type="text" name="nama" required><br><br>
+
+  <label>Upload Fail:</label>
+  <input type="file" name="fail"><br><br>
+
+  <!-- Butang default (ikut form action, method, enctype) -->
+  <button type="submit">Submit Biasa (POST ke default.php)</button>
+
+  <!-- Butang override: hantar ke cari.php, guna GET -->
+  <button 
+    type="submit"
+    formaction="cari.php"
+    formmethod="get">
+    Submit Carian (GET ke cari.php)
+  </button>
+
+  <!-- Butang override: hantar ke upload.php, guna POST, dan encoding untuk fail -->
+  <button 
+    type="submit"
+    formaction="upload.php"
+    formmethod="post"
+    formenctype="multipart/form-data">
+    Upload Fail (POST ke upload.php)
+  </button>
+</form>
+
+
+</body>
+</html>

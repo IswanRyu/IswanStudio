@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active/Current Navigation Link</title>
+</head>
+<style>
+    * {
+        font-family: arial, sans-serif;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        overflow: hidden;
+    }
+
+    ul li {
+        float: left;
+    }
+
+    ul li a {
+        font-size: .8rem;
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 3vmin 2vmin;
+    }
+
+    ul li .active {
+        background-color: #04AA6D;
+    }
+
+    ul li a:hover:not(.active) {
+        background-color: #111;
+    }
+
+</style>
+<body>
+    <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</body>
+</html>

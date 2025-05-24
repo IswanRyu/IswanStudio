@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+}
+
+img, h1 {
+    filter: drop-shadow(5px 5px 5px black)blur(1px);
+}

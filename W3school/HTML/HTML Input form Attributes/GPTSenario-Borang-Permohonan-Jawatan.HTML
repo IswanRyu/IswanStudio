@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <title>Borang Permohonan Jawatan</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    button {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Borang Permohonan Jawatan</h2>
+  <form action="hantar.php" method="post" target="_self">
+    <label>Nama Penuh:</label>
+    <input type="text" name="nama" required>
+
+    <label>Email:</label>
+    <input type="email" name="emel" required>
+
+    <label>Surat Permohonan:</label>
+    <textarea name="surat" required></textarea>
+
+    <label>Muat naik Resume (PDF):</label>
+    <input type="file" name="resume" accept=".pdf" required>
+
+    <!-- Butang Semak & Hantar -->
+    <button type="submit">Hantar Permohonan</button>
+
+    <!-- Butang Pratonton -->
+    <button 
+      type="submit" 
+      formaction="pratonton.php" 
+      formtarget="_blank" 
+      formnovalidate>
+      Lihat Pratonton
+    </button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation block membesar</title>
+    <style>
+        body {
+            min-height: 100vmin;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(minecraft-wallpaper.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .block {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(200, 200, 200, 1);
+            overflow: hidden;
+            border-radius: 8px;
+            backdrop-filter: none;
+        }
+
+        .block img {
+            position: absolute;
+            width: 0;
+            height: 0;
+            margin: 12px;
+            border-radius: none;
+        }
+
+        .block:hover {
+            animation: blockmembesar 1.5s ease forwards;
+        }
+
+        .block:hover img {
+            animation: imgmembesar 2s 1.5s ease forwards;
+        }
+
+        @keyframes blockmembesar {
+            0% {
+                width: 50px;
+                height: 50px;
+            }
+            50% {
+                width: 50px;
+                height: 450px;
+            }
+            70% {
+                background-color: rgba(200, 200, 200, 1);
+            }
+            100% {
+                width: 350px;
+                height: 450px;
+                background-color: rgba(200, 200, 200, .5);
+                box-shadow: 8px 8px 10px rgba(0, 0, 0, .4);
+            }
+        }
+
+        @keyframes blockmengecil {
+            0% {
+                
+            }
+        }
+
+        @keyframes imgmembesar {
+            0% {
+                width: 0px;
+                height: 0px;
+            }
+            25% {
+                width: 30px;
+                height: 30px;
+                border-radius: 3px;
+            }
+            50% {
+                width: 327px;
+                height: 30px;
+                border-radius: 6px;
+            }
+            90% {
+                width: 327px;
+                height: 330px;
+                border-radius: 9px;
+                box-shadow: none;
+            }
+            100% {
+                width: 327px;
+                height: 330px;
+                border-radius: 9px;
+                box-shadow: 0px 30px 10px -25px rgba(0, 0, 0, .5);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        <img src="../CSS/Asas-CSS/love1.1.jpg" alt="img block">
+    </div>
+</body>
+</html>

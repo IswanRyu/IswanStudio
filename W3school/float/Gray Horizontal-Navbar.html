@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gray Horizontal Navbar</title>
+    <style>
+        * {
+            font-family: arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            overflow: hidden;
+            border: 1px solid #e7e7e7;
+        }
+
+        ul li {
+            float: left;
+        }
+
+        ul li a {
+            display: block;
+            padding: 3vmin 2vmin;
+            text-decoration: none;
+            color: #666;
+            text-align: center;
+            font-size: .8rem;
+        }
+
+        ul li .active {
+            color: white;
+            background-color: #04AA6D;
+        }
+
+        ul li a:hover:not(.active) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</body>
+</html>

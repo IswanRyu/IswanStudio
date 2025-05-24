@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test CSS Positioning</title>
+        <style>
+            .container { 
+                border: 5px solid black;
+                height: 500px;
+                width: 500px;
+                margin: auto;
+                position: relative;
+            }
+
+            div {
+                width: 150px;
+                height: 150px;
+                margin: auto;
+            }
+
+            .satu {
+                background-color: red;
+                position: absolute;
+                left: 0;
+                right: 0;
+            }
+
+            .dua {
+                background-color: pink;
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="satu"></div>
+            <div class="dua"></div>
+            <div class="tiga"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+.hello:link {/*keadaan awal link sebelum diklik*/
+    color: orange;
+}
+
+.hello:hover {/*keadaan link apabila mouse diarahkan ke link*/
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.hello:active {/*keadaan link ketika diklik*/
+    font-style: italic;
+}
+
+.hello:visited {/*keadaan link yang sudah dikunjungi*/
+    color: red;
+}
+
+li:nth-child(odd) a {/* boleh gunakan odd untuk ganjil dan even untuk genap */
+    color: green;
+}
+
+li:nth-child(odd) a:hover {
+    color: red;
+}
+
+p:first-of-type {/*untuk memilih elemen pertama dari tipe elemen*/
+    color: red;
+}
+
+p:last-of-type {/*untuk memilih elemen terakhir dari tipe elemen*/
+    color: blue;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+.p1:target {
+    background-color: salmon;
+}
+
+.p2:target {
+    background-color: lightgreen;
+}
+
+.p3:target {
+    background-color: royalblue;
+}

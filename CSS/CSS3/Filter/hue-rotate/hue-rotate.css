@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+}
+
+img {
+    filter: hue-rotate(100deg);
+}
